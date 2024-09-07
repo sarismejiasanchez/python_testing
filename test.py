@@ -4,7 +4,7 @@ def calculate_total(products):
         total += product["price"]
     return total
 
-def test_calculate_total_with_empty_list():
+def test_calculate_total_with_empty_list():
     assert calculate_total([]) == 0
 
 def test_calculate_total_with_single_product():
